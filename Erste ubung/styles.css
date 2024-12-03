@@ -9,5 +9,11 @@
 
 body {
     color: var(--color-dark);
-    background: var(--color-background);
+    background: var(--color-secondary);
+}
+
+footer
+{
+    color: var(--color-secondary);
+    background: var(--color-dark);
 }
