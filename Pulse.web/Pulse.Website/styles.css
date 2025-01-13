@@ -1,4 +1,3 @@
-/* MISC */
 
 :root {
   --color-primary: #00ad6a;
@@ -65,7 +64,7 @@ nav ul li button {
   font-weight: 500;
 }
 
-/* PRICING SECTION */
+
 
 .pricing-section {
   height: 100vh;
@@ -133,6 +132,9 @@ nav ul li button {
     justify-content: center;
     gap: 2rem;
     margin-top: 2rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
   }
 
   .card-large {
@@ -176,6 +178,7 @@ nav ul li button {
     padding: 1.5rem;
     width: 300px;
     text-align: center;
+    height: 80%;
   }
   
   .card h4 {
@@ -255,7 +258,7 @@ nav ul li button {
   }
   
   
-  /* Footer Styling */
+ 
   footer {
     background-color: #080c16;
     color: #d6dae5;
