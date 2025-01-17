@@ -64,7 +64,12 @@ nav ul li button {
   font-weight: 500;
 }
 
-
+nav  button {
+  border: 2.5px solid var(--color-primary);
+  background-color: transparent;
+  padding: 0.5rem 1rem;
+  font-weight: 500;
+}
 
 .pricing-section {
   height: 100vh;
