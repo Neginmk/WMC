@@ -1,0 +1,34 @@
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Matrix-Rechner</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Matrix-Rechner</h1>
+
+    <label for="operation">Operation wählen:</label>
+    <select id="operation">
+      <option value="multiply">Matrixmultiplikation</option>
+      <option value="adjacency">Adjazenzmatrix</option>
+      <option value="power">Potenzmatrix</option>
+      <option value="distance">Distanzmatrix</option>
+      <option value="weight">Gewichtsmatrix</option>
+      <option value="shortestPath">Pfadfindung</option>
+    </select>
+
+    <div id="inputs">
+    
+    </div>
+
+    <button id="compute">Berechnen</button>
+
+    <h2>Ergebnis</h2>
+    <pre id="result"></pre>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
